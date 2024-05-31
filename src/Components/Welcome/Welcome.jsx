@@ -1,5 +1,4 @@
 import React from "react";
-import "./Welcome.css";
 import Card from "../Card/Card";
 
 function Welcome() {
@@ -20,31 +19,31 @@ function Welcome() {
 
   return (
     <>
-      <div className="welcome">
-        <div className="welcome1">
-          <div className="welcomeDetails">
-            <h4>Features</h4>
-            <h1>All in one card.</h1>
-            <p>
+      <div className="h-[90vh] flex flex-col justify-center items-center relative">
+        <div className="flex flex-col items-center relative -top-[10vh]">
+          <div className="flex flex-col items-center font-semibold">
+            <h4 className="text-[1.2rem]">Features</h4>
+            <h1 className="text-[4rem]">All in one card.</h1>
+            <p className="text-base font-normal">
               Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
               leo duis ut diam.
             </p>
           </div>
-          <div className="welcomeButtons">
-            <buttons className="welcomeBtn welcomeOpenAccount">
+          <div className="flex items-center justify-center my-7">
+            <button className="h-[4.5vh] w-[7.5vw] bg-[#5BB5A2] text-white rounded-md font-semibold flex items-center justify-center mx-2.5 hover:bg-[#459d8a]">
               Open Account
-            </buttons>
-            <buttons className="welcomeBtn welcomeCompare">
+            </button>
+            <button className="h-[4.5vh] w-[7.5vw] bg-transparent text-[#5BB5A2] rounded-md font-semibold flex items-center justify-center mx-2.5 hover:bg-[#5BB5A2] hover:text-white">
               Compare Cards
-            </buttons>
+            </button>
           </div>
         </div>
-        <div className="welcome2">
-          <Card cardColor={goldCard}/>
-          <Card cardColor={blackCard}/>
-          <Card cardColor={blueCard}/>
-          <Card cardColor={blackCard}/>
-          <Card cardColor={goldCard}/>
+        <div className="flex flex-row items-center justify-center w-[98vw] my-[20px]">
+          <Card cardColor={goldCard} />
+          <Card cardColor={blackCard} />
+          <Card cardColor={blueCard} />
+          <Card cardColor={blackCard} />
+          <Card cardColor={goldCard} />
         </div>
       </div>
     </>
