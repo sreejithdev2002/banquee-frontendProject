@@ -3,12 +3,12 @@ import React from 'react';
 function Card({cardColor}) {
   return (
     <>
-      <div className={`h-[25vh] w-[20vw] transform rotate-90 p-2.5 px-[25px] py-[20px] text-white rounded-lg relative`} style={cardColor}>
+      <div className={`p-2.5 px-[25px] h-[25vh] w-[20vw] transform rotate-90 py-[20px] text-white rounded-lg relative`} style={cardColor}>
   <div>
     <h1 className="text-xl font-semibold">banquee.</h1>
   </div>
   <div>
-    <h1 className="mt-[5px] text-[2.2em] font-mono">1234 1234 1234</h1>
+    <h1 className="mt-[5px] text-[1.5em] font-mono">1234 1234 1234 1234</h1>
   </div>
   <div className="flex flex-row py-2.5 relative top-3.5">
     <div className="mx-2.5">

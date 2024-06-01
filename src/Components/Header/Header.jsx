@@ -4,29 +4,6 @@ import React from "react";
 function Header() {
   return (
     <>
-      {/* <div className="header">
-        <div className="brandName">
-            <h2>banquee.</h2>
-        </div>
-        <div className="brandLinks">
-          <div className="singleBrandLinks">
-            <button className="brandBtn">Features</button>
-          </div>
-          <div className="singleBrandLinks">
-            <button className="brandBtn">Compare</button>
-          </div>
-          <div className="singleBrandLinks">
-            <button className="brandBtn">Support</button>
-          </div>
-          <div className="singleBrandLinks">
-            <button className="brandBtn">Blog</button>
-          </div>
-        </div>
-        <div className="brandButtons">
-          <button className="brandBtn brandBtnLogin">Login</button>
-          <button className="brandBtn brandBtnOpenAccount">Open Account</button>
-        </div>
-      </div> */}
 
       <div className="flex flex-row justify-around items-center h-10 py-10">
         <div>
@@ -55,10 +32,10 @@ function Header() {
           </div>
         </div>
         <div className="flex">
-          <button className="mx-2.5 h-[4.5vh] w-[5vw] bg-transparent border-none rounded font-medium cursor-pointer text-teal-500 hover:bg-teal-600 hover:text-white">
+          <button className="mx-2.5 h-[4.5vh] w-[5vw] bg-transparent border-none rounded font-medium text-sm cursor-pointer text-teal-500 hover:bg-teal-600 hover:text-white">
             Login
           </button>
-          <button className="mx-2.5 h-[4.5vh] w-[7vw] bg-teal-500 text-white border-none rounded font-medium cursor-pointer hover:bg-teal-700">
+          <button className="mx-2.5 h-[4.5vh] w-[7vw] bg-teal-500 text-white border-none rounded font-medium text-sm cursor-pointer hover:bg-teal-700">
             Open Account
           </button>
         </div>

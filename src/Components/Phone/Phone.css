@@ -1,0 +1,77 @@
+.phone{
+    height: 60vh;
+    width: 16vw;
+    border: 5px solid black;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 5px 0px;
+}
+
+.phoneHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phoneHeader h3, .phoneHeader h2{
+    margin: 5px 18px;
+}
+
+.phoneHeader h3{
+    font-size: 0.7rem;
+}
+
+.phoneHeader h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sendRecieve{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    font-size: 0.7rem;
+}
+
+.sendRecieve h2{
+    margin: 0px 10px;
+}
+
+#transactions {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.transCard{
+    position: relative;
+    background-color: #f8f8f8;
+    width: 13vw;
+    height: 5vh;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transCardDetails h2{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #47c1a8;
+}
+
+.transCardDetails h3{
+    font-size: 0.6rem;
+}
+
+.transCardPrice h2{
+    font-size: 0.8rem;
+    font-weight: 500;
+}

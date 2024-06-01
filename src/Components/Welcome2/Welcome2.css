@@ -1,0 +1,9 @@
+.welcome2 {
+    height: 80vh;
+    width: auto;
+    position: relative;
+    top: -140px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}

@@ -30,10 +30,10 @@ function Welcome() {
             </p>
           </div>
           <div className="flex items-center justify-center my-7">
-            <button className="h-[4.5vh] w-[7.5vw] bg-[#5BB5A2] text-white rounded-md font-semibold flex items-center justify-center mx-2.5 hover:bg-[#459d8a]">
+            <button className="h-[4.5vh] w-[7.5vw] bg-[#5BB5A2] text-white rounded-md font-semibold text-sm flex items-center justify-center mx-2.5 hover:bg-[#459d8a]">
               Open Account
             </button>
-            <button className="h-[4.5vh] w-[7.5vw] bg-transparent text-[#5BB5A2] rounded-md font-semibold flex items-center justify-center mx-2.5 hover:bg-[#5BB5A2] hover:text-white">
+            <button className="h-[4.5vh] w-[7.5vw] bg-transparent text-[#5BB5A2] rounded-md font-semibold text-sm flex items-center justify-center mx-2.5 hover:bg-[#5BB5A2] hover:text-white">
               Compare Cards
             </button>
           </div>
